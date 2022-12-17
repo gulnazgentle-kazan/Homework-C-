@@ -5,19 +5,6 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 
-/*Console.WriteLine("Введите любое целое число");
-int number = Convert.ToInt32(Console.ReadLine());
-bool evenNumber = Convert.ToBoolean(number % 2);
-int count = 1;
-while (count <= number)
-{
-    if (evenNumber)
-    {
-        Console.Write($"{count + 1}");
-        count++;
-    }
-}*/
-
 Console.WriteLine("Введите любое целое число");
 int number = int.Parse(Console.ReadLine());
 int count = 2;
